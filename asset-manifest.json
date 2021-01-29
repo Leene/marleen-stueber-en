@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/marleen-stueber-en/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/marleen-stueber-en/static/js/main.06c88793.chunk.js",
+    "main.js.map": "/marleen-stueber-en/static/js/main.06c88793.chunk.js.map",
+    "runtime-main.js": "/marleen-stueber-en/static/js/runtime-main.9d05a749.js",
+    "runtime-main.js.map": "/marleen-stueber-en/static/js/runtime-main.9d05a749.js.map",
+    "static/js/2.6539d1cb.chunk.js": "/marleen-stueber-en/static/js/2.6539d1cb.chunk.js",
+    "static/js/2.6539d1cb.chunk.js.map": "/marleen-stueber-en/static/js/2.6539d1cb.chunk.js.map",
+    "static/js/3.536841b3.chunk.js": "/marleen-stueber-en/static/js/3.536841b3.chunk.js",
+    "static/js/3.536841b3.chunk.js.map": "/marleen-stueber-en/static/js/3.536841b3.chunk.js.map",
+    "index.html": "/marleen-stueber-en/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/marleen-stueber-en/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.6539d1cb.chunk.js.LICENSE.txt": "/marleen-stueber-en/static/js/2.6539d1cb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/marleen-stueber-en/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d05a749.js",
+    "static/js/2.6539d1cb.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.06c88793.chunk.js"
+  ]
+}

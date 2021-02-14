@@ -7,28 +7,28 @@ import Contact from "./Contact";
 
 export default function Header() {
   return (
-    <><NavDiv>
-              <Navigation />
-            </NavDiv>
+    <>
+      <NavDiv>
+        <Navigation />
+      </NavDiv>
       <HEADER>
-          
         <Profil>
           {/* Profil */}
           <DIV>
             <TitleDiv>
-            <H1>Marleen Stüber</H1>
-<H2>Junior Web Developer</H2>
-</TitleDiv>
+              <H1>Marleen Stüber</H1>
+              <H2>Junior Web Developer</H2>
+            </TitleDiv>
             <ImgCenter src={meinAntlitz} />
-            
-            <P>
-              I am a former student of media computer science an since March 2020 an alumni of the 
-              web developer bootcamp of neuefische GmbH. I am currently looking for a permanent employment as a junior web developer.
-            </P>
-            
-            <Contact/>
 
-            
+            <P>
+              I am a former student of media computer science and since March
+              2020 an alumni of the web developer bootcamp of neuefische GmbH. I
+              am currently looking for a permanent employment as a junior web
+              developer.
+            </P>
+
+            <Contact />
           </DIV>
 
           <ImgLeft src={meinAntlitz} />
@@ -53,11 +53,7 @@ export default function Header() {
   );
 }
 
-const NavDiv =  styled.div`
-
-
-`
-
+const NavDiv = styled.div``;
 
 const P = styled.p`
   ${VIEWPORT.small} {
@@ -70,13 +66,11 @@ const P = styled.p`
   }
 `;
 const TitleDiv = styled.div`
-
-
   ${VIEWPORT.small} {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    width:90vw;
+    width: 90vw;
   }
 
   ${VIEWPORT.medium} {
@@ -86,62 +80,48 @@ const TitleDiv = styled.div`
   }
 `;
 
-
-
-
-
-
 const H1 = styled.h1`
-text-align:right;
+  text-align: right;
 
-${VIEWPORT.small} {
-  margin-right:5px;
-  text-align:center;
-}
+  ${VIEWPORT.small} {
+    margin-right: 5px;
+    text-align: center;
+  }
 
-${VIEWPORT.medium} {
- 
-}
+  ${VIEWPORT.medium} {
+  }
 
-${VIEWPORT.large} {
-
-  
-}
-`
+  ${VIEWPORT.large} {
+  }
+`;
 const H2 = styled.h2`
-//border: 1px solid black;
+  //border: 1px solid black;
 
-text-align:right;
-margin-top:-65px;
-width:100%;
-${VIEWPORT.small} {
-  //border-top: 1px solid rgb(${COLORS.lightText});
-  text-align:center;
-  margin-top:-30px;
-  padding-top:10px;
-}
+  text-align: right;
+  margin-top: -65px;
+  width: 100%;
+  ${VIEWPORT.small} {
+    //border-top: 1px solid rgb(${COLORS.lightText});
+    text-align: center;
+    margin-top: -30px;
+    padding-top: 10px;
+  }
 
-${VIEWPORT.medium} {
-  text-align:center;
-  margin-top:-30px;
-  
-}
+  ${VIEWPORT.medium} {
+    text-align: center;
+    margin-top: -30px;
+  }
 
-${VIEWPORT.large} {
-  width:97%;
-
-}
-`
-
+  ${VIEWPORT.large} {
+    width: 97%;
+  }
+`;
 
 const Profil = styled.section`
   display: flex;
-  
- 
+
   ${VIEWPORT.small} {
     margin: 0 5vw;
-   
-  
   }
 
   ${VIEWPORT.medium} {
@@ -175,47 +155,37 @@ const ImgLeft = styled.img`
   border-radius: 50%;
   box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
   margin-top: 100px;
-  margin-left:10px;
+  margin-left: 10px;
 
   ${VIEWPORT.small} {
     display: none;
-    
   }
 
   ${VIEWPORT.medium} {
     height: 300px;
-
-  
   }
 
   ${VIEWPORT.large} {
     height: 350px;
-
-    
   }
 `;
 
 const ImgCenter = styled.img`
-
   height: 90vw;
   width: 90vw;
   border-radius: 50%;
   box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
-margin-top:30px;
-  
+  margin-top: 30px;
 
   ${VIEWPORT.small} {
-   
   }
 
   ${VIEWPORT.medium} {
     display: none;
-   
   }
 
   ${VIEWPORT.large} {
     display: none;
-  
   }
 `;
 
@@ -233,6 +203,4 @@ const HEADER = styled.header`
   /* background-image: linear-gradient(${COLORS.header}, ${COLORS.background}); */
   width: 100vw;
   height: 75%;
-  
 `;
-
